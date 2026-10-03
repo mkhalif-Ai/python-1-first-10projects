@@ -1,0 +1,6 @@
+your_name = input("enter your name:")
+friend_name = input("enter your friend name:")
+print(f"GREETING CARD")
+print(f"to:{friend_name}")
+print(f"from:{your_name.upper()}")
+print(f"message: wishing you the best")
