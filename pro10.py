@@ -1,0 +1,8 @@
+Traveler = input("enter your name: ")
+destination = input("enter destination: ")
+Days = int(input("enter number of days: "))
+print("TRAVEL PROFILE")
+print(f"Traveler: {Traveler.upper()}")
+print(f"destination: {destination.capitalize()}")
+print(f"Days: {Days}")
+print(f"Note: { Traveler} is spending {Days} days in {destination}. Bon voyage!")
